@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfAplication.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAplication"
+        mc:Ignorable="d"
+        Title="Login" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize" ShowInTaskbar="False">
+    <Window.Background>
+        <ImageBrush ImageSource="1dd0ba4a-5e67-43c3-b43e-f895313dc46c.jpg"/>
+    </Window.Background>
+    <Canvas HorizontalAlignment="Left" Height="181.819" Margin="20.779,338.961,0,0" VerticalAlignment="Top" Width="338.961" Background="Black" Opacity="0.5">
+        <TextBlock Height="44.155" Canvas.Left="57.143" TextWrapping="Wrap" Text="WTPApp" Canvas.Top="-346.753" Width="244.156" FontSize="36" FontFamily="SimSun"/>
+        <TextBox x:Name="TextBox_Usuario" Height="21.342" Canvas.Left="113.697" TextWrapping="Wrap" Canvas.Top="44.87" Width="164.935" Opacity="0.6" Foreground="Black" SelectionBrush="#FF7CA1BD"/>
+        <TextBox x:Name="TextBox_Password" Height="22.078" Canvas.Left="113.697" TextWrapping="Wrap" Canvas.Top="81.855" Width="164.935" Opacity="0.6" Foreground="Black"/>
+        <TextBlock Height="24.675" Canvas.Left="10" TextWrapping="Wrap" Text="Usuario" Canvas.Top="44.87" Width="90" Foreground="#FFE4E0E0" FontSize="14"/>
+        <TextBlock Height="22.078" Canvas.Left="10" TextWrapping="Wrap" Text="Password" Canvas.Top="81.855" Width="90" Foreground="#FFF3F3F3"/>
+        <TextBlock Height="29.87" Canvas.Left="10" TextWrapping="Wrap" Text="Login" Canvas.Top="10" Width="209.091" FontSize="16" Foreground="White"/>
+        <Rectangle Fill="#FFF1F1FB" Height="1" Stroke="White" Canvas.Top="32.747" Width="301.299"/>
+        <Button x:Name="___Button___Aceptar" Content="Aceptar" Height="20.065" Canvas.Left="223.766" Canvas.Top="123.754" Width="105.195" IsDefault="True" Background="#FFC3BFBF" Click="ok_click_button"/>
+        <TextBlock x:Name="TextBlock_Error" Height="16.113" Canvas.Left="10" TextWrapping="Wrap" Text="TextBlock" Canvas.Top="155.706" Width="216.554" Foreground="#FFDC3434"/>
+    </Canvas>
+</Window>
